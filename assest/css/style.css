@@ -1,0 +1,858 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+   
+}
+
+html {
+    font-family: Arial;
+}
+
+#header {
+    height: 66px;
+    background-color: #E62045;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* CSS nav */
+#nav {
+    padding: 0 15px;
+    margin: 0px 105px;
+    font: 16px;
+}
+
+#nav li {
+    display: inline-block;
+    line-height: 66px;
+}
+
+#nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 35px;
+}
+
+#nav li i {
+    width: 32px;
+    height: 32px;
+}
+
+/* CSS section-background */
+.section-background {
+    margin-top: 66px;
+    height: 620px;
+    background-image: url(https://mylocal.vn/storage/app/uploads/public/a4c/8ef/c7b/thumb__0_0_0_0_auto.webp);
+}
+
+/* CSS section local */
+.section-local {
+    height: 535px;
+    background-color: #E62045;
+    padding: 68px 0px 0px;
+}
+
+.container {
+    margin: 0px 105px;
+    padding: 0px 15px;
+
+}
+
+.container h2 {
+    color: white;
+    text-align: center;
+    font-size: 31px;
+}
+
+.container iframe {
+    width: 1236px;
+    height: 625px;
+  margin-top: 50px;
+}
+
+.section-supersim {
+    width: 100%;
+    height: 1203px;
+    background-color: #293754;
+    padding: 400px 0px 0px;
+}
+
+/* CSS section sim */
+
+.section-supersim .container h2 {
+    text-align: center;
+    font-size: 31sp;
+}
+
+.section-supersim .container p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.section-supersim .list-goi {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-supersim .list-goi span {
+    color: white;
+    padding: 10px 30px;
+    margin: 8px;
+    border: 1px solid #757575;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .list-card {
+    margin-top: 50px;
+    display: flex;
+    color: white;
+
+}
+
+/* css card */
+.container .card-first {
+    width: 402px;
+    height: 370px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card-first .heading-card,
+.card-second .heading-card,
+.card-three .heading-card {
+    font-size: 32px;
+}
+
+.card-first span {
+    display: block;
+    margin: 2px;
+}
+
+.card-first .btn-buy {
+    border: 1px solid #f9f8f8;
+    display: inline-block;
+    padding: 5px 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-first .text-underline {
+    font-size: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-first .btn-buy:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.container .card-second {
+    width: 402px;
+    height: 370px;
+    background-color: rgb(227, 15, 15);
+    border-radius: 5px;
+    margin: 0 40px;
+    padding: 20px;
+}
+
+.card-second span {
+    display: block;
+    margin: 2px;
+}
+
+.card-second .btn-buy {
+    border: 1px solid #f9f8f8;
+    display: inline-block;
+    padding: 5px 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-second .text-underline {
+    font-size: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-second .btn-buy:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container .card-three {
+    width: 402px;
+    height: 370px;
+    background-color: rgb(241, 241, 6);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card-three span {
+    display: block;
+    margin: 2px;
+}
+
+.card-three .btn-buy {
+    border: 1px solid #f9f8f8;
+    display: inline-block;
+    padding: 5px 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-three .text-underline {
+    font-size: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-three .btn-buy:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container .add {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.add .btn-add a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #E62045;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: #E62045;
+}
+
+.section-tanhuong {
+    width: 100%;
+    height: 1250px;
+    background-color: #0090FF;
+}
+
+.section-tanhuong .container h2 {
+    text-align: center;
+    font-size: 31px;
+    padding-top: 70px;
+}
+
+.section-tanhuong .container p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+/* CSS sectiontanhuong */
+.list-anime {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+/* CSS lisitem1 */
+.lisitem1 {
+    width: 1236px;
+    height: 260px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.lisitem1::before {
+    content: "";
+    display: inline-block;
+    width: 495px;
+    height: 260px;
+    background-color: #E62045;
+    background-image: url(https://mylocal.vn/storage/app/uploads/public/40d/fdd/a78/thumb__0_0_0_0_auto.webp);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 10px;
+}
+
+.lisitem1 .content1 {
+    width: 741px;
+    height: 260px;
+    float: right;
+    color: black;
+    padding: 44px 58px 40px 50px;
+}
+
+.content1 h4 {
+    color: #E62045;
+    font-size: 24px;
+}
+
+.lisitem1 .content1 p {
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.btn-timhieu {
+    padding-top: 55px;
+    color: black;
+}
+
+.btn-timhieu a {
+    text-decoration: none;
+}
+
+/* CSS lisitem2 */
+.lisitem2 {
+    width: 1236px;
+    height: 260px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.lisitem2::before {
+    content: "";
+    display: inline-block;
+    width: 495px;
+    height: 260px;
+    background-color: #3fa458;
+    background-image: url(https://mylocal.vn/storage/app/uploads/public/2e7/b60/180/thumb__0_0_0_0_auto.webp);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 10px;
+}
+
+.lisitem2 .content1 {
+    width: 741px;
+    height: 260px;
+    float: right;
+    color: black;
+    padding: 44px 58px 40px 50px;
+}
+
+.lisitem2 .content1 p {
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* CSS list item3 */
+.lisitem3 {
+    width: 1236px;
+    height: 260px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.lisitem3::before {
+    content: "";
+    display: inline-block;
+    width: 495px;
+    height: 260px;
+    background-color: #ffea08;
+    background-image: url(https://mylocal.vn/storage/app/uploads/public/74c/134/c86/thumb__0_0_0_0_auto.webp);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 10px;
+}
+
+.lisitem3 .content1 {
+    width: 741px;
+    height: 260px;
+    float: right;
+    color: black;
+    padding: 44px 58px 40px 50px;
+}
+
+.lisitem3 .content1 p {
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* CSS section .local-feeling */
+
+.local-feeling {
+    width: 1476px;
+    height: 1080px;
+    background-color: #febc05;
+}
+
+.local-feeling h2 {
+    padding-top: 100px;
+    color: black;
+}
+
+.local-feeling .col1 {
+    display: inline-block;
+}
+
+.local-feeling .col1 p {
+    margin-top: 150px;
+}
+
+.local-feeling .col1 img {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.local-feeling .col2 {
+    display: inline-block;
+    width: 739px;
+    height: 386px;
+
+}
+
+.col2 img {
+    width: 624px;
+    height: 386px;
+    float: right;
+    margin-top: 100px;
+
+}
+
+.list-comment {
+    padding: 0px 15px;
+    width: 1266px;
+    height: 326px;
+    margin-top: 150px;
+}
+
+.comment1 {
+    width: 376px;
+    height: 196px;
+    background-color: #3fa458;
+    margin-right: 20px;
+    display: inline-block;
+    border-top-left-radius: 15px;
+    padding: 20px 30px 48px 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.comment1 p {
+    margin-top: 20px;
+}
+
+.comment2 {
+    width: 376px;
+    display: inline-block;
+    height: 196px;
+    background-color: #E62045;
+    border-top-left-radius: 15px;
+    padding: 20px 30px 48px 25px;
+    margin-right: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.comment2 p {
+    margin-top: 20px;
+}
+
+.comment3 {
+    width: 376px;
+    display: inline-block;
+    height: 196px;
+    background-color: #31b9c8;
+    border-top-left-radius: 15px;
+    padding: 20px 30px 48px 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.comment3 p {
+    margin-top: 20px;
+}
+
+.container .btn-download {
+    border: 1px solid #E62045;
+    display: inline-block;
+    background-color: #E62045;
+    padding: 10px 40px;
+    margin-left: 45%;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.btn-download a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+/* CSS section-dichvu */
+.section-dichvu {
+    width: 1476px;
+    height: 759px;
+    padding: 100px 0px;
+    background-color: #E62045;
+}
+
+.list-dichvu {
+    margin-top: 80px;
+    display: flex;
+}
+
+/* css dichvu1 */
+.dichvu1 {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.dichvu1 h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.dichvu1 p {
+    text-align: center;
+    color: white;
+}
+
+/* css dichvu2 */
+.dichvu2 {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.dichvu2 h3 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.dichvu2 p {
+    text-align: center;
+    color: white;
+}
+
+/* css dichvu3 */
+.dichvu3 {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.dichvu3 h3 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.dichvu3 p {
+    text-align: center;
+    color: white;
+}
+
+/* section khuyen mai */
+
+.section-khuyenmai {
+    width: 1476px;
+    height: 704px;
+    background-color: #0090FF;
+   padding-top: 50px;
+}
+.section-khuyenmai .container{
+    width: 1266px;
+}
+
+.container .content-new{
+    margin-top: 50px;
+    text-align: center;
+}
+.content-new .khuyenmai-tintuc a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 32px;
+    width: 160px;
+    height: 36px;
+    background-color: #E62045;
+}
+.list-tintuc{
+    width: 1266px;
+    height: 458px;
+    display: flex;
+}
+.container .list-tintuc .list1{
+    margin-top: 40px;
+  width: 392px;
+  height: 327px;
+}
+.container .list-tintuc .list2{
+    margin-top: 40px;
+  width: 392px;
+  height: 327px;
+}
+.container .list-tintuc .list3{
+    margin-top: 40px;
+  width: 392px;
+  height: 327px;
+}
+/* css list1 */
+.list1{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.list1 .img-list1{
+    background-image: url(https://mylocal.vn/storage/app/uploads/public/4d4/196/f28/thumb__0_0_0_0_auto.webp);
+    width: 392px;
+    border-radius: 10px;
+    height: 210px;
+    
+}
+.list1 .content-list1{
+    width: 392px;
+    height: 117px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.list1 .content-list1 a{
+    color: black;
+    margin: 0px 0px 10px;
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    text-align: justify;
+    text-decoration: none;
+}
+/* css list2 */
+.list2{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.list2 .img-list2{
+    background-image: url(https://mylocal.vn/storage/app/uploads/public/700/717/450/thumb__0_0_0_0_auto.webp);
+    width: 392px;
+    border-radius: 10px;
+    height: 210px;
+}
+.list2 .content-list2{
+    width: 392px;
+    height: 117px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.list2 .content-list2 a{
+    color: black;
+    margin: 0px 0px 10px;
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    text-align: justify;
+    text-decoration: none;
+}
+/* css list3 */
+.list3{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 200px;
+}
+.list3 .img-list3{
+    background-image: url(https://mylocal.vn/storage/app/uploads/public/1d5/29d/668/thumb__0_0_0_0_auto.webp);
+    width: 392px;
+    border-radius: 10px;
+    height: 210px;
+}
+.list3 .content-list3{
+    width: 392px;
+    height: 117px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.list3 .content-list3 a{
+    color: black;
+    margin: 0px 0px 10px;
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    text-align: justify;
+    text-decoration: none;
+}
+
+/* css section local */
+.section-local1{
+    width: 1476px;
+    height: 774px;
+    padding-top: 100px;
+    background-color: white;
+}
+.section-local1 .content-local1 h2{
+    color: #f7a61b;
+}
+.section-local1 .col-question{
+    width: 708px;
+    height: 378px;
+    background-color: #f7a61b;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 48px 40px 50px 48px;
+    text-align: justify;
+}
+.col-question hr{
+   border: 1px solid gray;
+    margin-top: 20px;
+    font-weight:200;
+    
+}
+.col-question h2{
+    text-align: justify;
+    color: #E62045;
+    font-size: 24px;
+}
+.col-question p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.col-question a{
+  margin-top: 20px;
+  font-size: 24px;
+   display: block;
+   color: black;
+   text-decoration: none;
+  
+}
+.container .img-question{
+    width: 497px;
+    height: 470px;
+    background-image: url(https://mylocal.vn/themes/asim/assets/images/frame.svg);
+    background-repeat: no-repeat;
+   float: right;
+   margin-top: 70px;
+}
+/* CSS footer */
+ .footer{
+    width: 1476px;
+    height: 543px;
+    background-color: #293754;
+}
+.footer h3{
+    padding-top: 50px;
+}
+.footer .box-main{
+    display: flex;
+    margin-top: 40px;
+   
+}
+.footer .box-footer1{
+    margin-right: 60px;
+   
+}
+.box-footer1 li{
+    list-style-type: none;
+    padding: 2px 0px
+}
+.box-footer1 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.footer .box-footer2{
+    margin-right: 60px;
+   
+}
+.box-footer2 li{
+    list-style-type: none;
+    padding: 2px 0px
+}
+.box-footer2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer .box-footer3{
+    margin-right: 60px;
+   
+}
+.box-footer3 li{
+    list-style-type: none;
+    padding: 2px 0px
+}
+.box-footer3 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer .box-footer4{
+    margin-right: 60px;
+   
+}
+.box-footer4 li{
+    list-style-type: none;
+    padding: 2px 0px
+}
+.box-footer4 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer .box-footer5{
+    margin-right: 60px;
+   
+}
+.box-footer5 li{
+    list-style-type: none;
+    padding: 2px 0px
+}
+.box-footer5 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.container hr{
+    margin-top: 40px;
+}
+
+.footer .boxmain2{
+    display: flex;
+    margin-top: 40px;
+   
+}
+/* css footer bottom */
+.footer-bottom{
+    width: 1180;
+    height: 40px;
+    background-color: #E62045;
+    display: flex;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 12px;
+    line-height: 40px;
+}
+.footer-bottom .copy{
+    margin-left: 100px;
+}
+.footer-bottom .thutuc{
+    margin-left: 500px;
+}
