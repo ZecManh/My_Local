@@ -48,6 +48,8 @@ html {
 .section-background {
     margin-top: 66px;
     height: 620px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(https://mylocal.vn/storage/app/uploads/public/a4c/8ef/c7b/thumb__0_0_0_0_auto.webp);
 }
 
