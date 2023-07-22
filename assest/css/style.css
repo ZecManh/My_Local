@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#main {
-   
-}
-
 html {
     font-family: Arial;
 }
@@ -79,10 +74,8 @@ html {
 }
 
 .section-supersim {
-    width: 100%;
-    height: 1203px;
     background-color: #293754;
-    padding: 400px 0px 0px;
+    padding: 400px 0px 100px;
 }
 
 /* CSS section sim */
@@ -240,9 +233,8 @@ html {
 }
 
 .section-tanhuong {
-    width: 100%;
-    height: 1250px;
     background-color: #0090FF;
+    padding-bottom: 50px;
 }
 
 .section-tanhuong .container h2 {
@@ -389,9 +381,8 @@ html {
 /* CSS section .local-feeling */
 
 .local-feeling {
-    width: 1476px;
-    height: 1080px;
     background-color: #febc05;
+    padding-bottom: 50px;
 }
 
 .local-feeling h2 {
@@ -502,8 +493,6 @@ html {
 
 /* CSS section-dichvu */
 .section-dichvu {
-    width: 1476px;
-    height: 759px;
     padding: 100px 0px;
     background-color: #E62045;
 }
@@ -570,8 +559,6 @@ html {
 /* section khuyen mai */
 
 .section-khuyenmai {
-    width: 1476px;
-    height: 704px;
     background-color: #0090FF;
    padding-top: 50px;
 }
@@ -700,9 +687,7 @@ html {
 
 /* css section local */
 .section-local1{
-    width: 1476px;
-    height: 774px;
-    padding-top: 100px;
+    padding: 100px 0px 200px;
     background-color: white;
 }
 .section-local1 .content-local1 h2{
@@ -751,8 +736,7 @@ html {
 }
 /* CSS footer */
  .footer{
-    width: 1476px;
-    height: 543px;
+   padding-bottom: 70px;
     background-color: #293754;
 }
 .footer h3{
